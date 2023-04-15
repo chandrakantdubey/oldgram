@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+*,
+*::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Source Sans Pro;
+}
+
+/* layout stuff */
+body {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c6c6c6;
+}
+header,
+footer,
+section {
+  height: min-content;
+  width: 375px;
+  background-color: #fff;
+}
+
+/* header stuff */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #c6c6c6;
+}
+.header-user-avatar {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  border: 1px solid blueviolet;
+}
+.header-logo {
+  width: 127px;
+}
+
+/* footer stuff */
+footer {
+  padding: 1em;
+  border-top: 1px solid #c6c6c6;
+}
+
+/* CSS for Posts */
+#post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+main {
+  background-color: #c6c6c6;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-header {
+  display: flex;
+  padding: 10px;
+  gap: 7px;
+}
+.post-header-avatar {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  border: 1px solid blueviolet;
+}
+.post-header-username {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-image {
+  width: 100%;
+  border-bottom: 5px solid rgb(138, 138, 27);
+}
+
+.post-reactions {
+  display: flex;
+}
+.post-reactions-icon {
+  margin: 10px;
+  width: 22px;
+  height: 22px;
+}
+
+.post-likes {
+  padding-left: 10px;
+}
+
+.post-comments {
+  margin: 15px 10px;
+}
