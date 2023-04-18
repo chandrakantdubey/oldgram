@@ -47,6 +47,7 @@ header {
 
 /* footer stuff */
 footer {
+  margin-top: 10px;
   padding: 1em;
   border-top: 1px solid #c6c6c6;
 }
@@ -56,7 +57,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
+  gap: 10px;
 }
 main {
   background-color: #c6c6c6;
